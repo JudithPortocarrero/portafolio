@@ -1,32 +1,30 @@
 import React from 'react'
 import Cabecera from '../componets/header';
+import './stylesPages/contacto.scss';
+import linkedin from '../images/linkedin.png';
 
 const Contacto = () => {
     return(
-        <div>
+        <div className='containerConocimientos'>
             <Cabecera/>
-            <div>
-                <div>Contáctame</div>
-                <div>
-                    <p>Mi nombre:Judith Bertha Portocarrero Cachique</p>
-                    <p>https://www.linkedin.com/in/judith-portocarrero-cachique/</p>
-                    <p> 
-                        Portafolio
-                        https://app.talento.laboratoria.la/profile/Xn2oDrCJ3LX9ewXfXSd9wB6hLPI3
-                    </p>
+            <div className='containerdescriptionConocimientos'>
+                <div className='titleHome'>Contáctame</div>
+                <div className='divContacto'>
+                    <p>Judith Bertha Portocarrero Cachique</p>
+                    <p><a className='liPage' href='https://www.linkedin.com/in/judith-portocarrero-cachique/'>linkedin<img className='linkedin' src={linkedin}/></a></p>
+                    <p><a className='liPage' href='https://app.talento.laboratoria.la/profile/Xn2oDrCJ3LX9ewXfXSd9wB6hLPI3'>Portafolio<img className='linkedin' src='https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/File-Explorer-fluent-icon.png/220px-File-Explorer-fluent-icon.png'/></a></p>
                     <p>
-                        Correos
-                        judith086.jpc@gmail.com
+                        Correos:<br/>
+                        judith086.jpc@gmail.com<br/>
                         judithportocarrero99@hotmail.com
                     </p>
                     <p>
-                        Teléfono
-                        979803191
+                        Teléfono:<br/>
+                        979803191<br/>
                         935744654
                     </p>
                     <p>
-                        Mi ubicación
-                        Lima, PERÚ   
+                        Mi ubicación: Lima, PERÚ   
                     </p>
                 </div>
             </div>
