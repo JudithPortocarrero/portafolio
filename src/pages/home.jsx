@@ -23,7 +23,7 @@ const Home = () => {
                             Soy estudiante de VII ciclo la Universidad Nacional Federico Villareal 
                             de la carrera de Ingeniería Informática y para complementar estos estudios
                             me prepare en un curso intensivo como Front end developer en Laboratoria<br/><br/>
-                            <section><a className='cv' href='https://drive.google.com/file/d/1p1QXavMU56OyrnSNSEdfHlZUlIJwNliT/view?usp=sharing'><img className='logoCurriculum' src={cv} alt='logo curriculum'/>Ver Curriculum</a></section>
+                            <section><a className='cv' href='https://drive.google.com/file/d/1tWWiXjxYy9_VJhcRI3m6SlYiwe33EAc9/view?usp=sharing'><img className='logoCurriculum' src={cv} alt='logo curriculum'/>Ver Curriculum</a></section>
                         </section>
                     </div>
                 </div>
